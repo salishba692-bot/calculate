@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://bucolic-lamington-e7d903.netlify.app/sitemap.xml
