@@ -1,48 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://bucolic-lamington-e7d903.netlify.app/</loc>
-    <lastmod>2026-10-28</lastmod>
+    <loc>https://YOURDOMAIN.com/</loc>
+    <lastmod>2026-10-24</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://bucolic-lamington-e7d903.netlify.app/salary-tax-calculator</loc>
-    <lastmod>2026-10-28</lastmod>
+    <loc>https://YOURDOMAIN.com/salary-tax-calculator</loc>
+    <lastmod>2026-10-24</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://bucolic-lamington-e7d903.netlify.app/zakat-calculator</loc>
-    <lastmod>2026-10-28</lastmod>
+    <loc>https://YOURDOMAIN.com/zakat-calculator</loc>
+    <lastmod>2026-10-24</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://bucolic-lamington-e7d903.netlify.app/emi-calculator</loc>
-    <lastmod>2026-10-28</lastmod>
+    <loc>https://YOURDOMAIN.com/emi-calculator</loc>
+    <lastmod>2026-10-24</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://bucolic-lamington-e7d903.netlify.app/electricity-units-calculator</loc>
-    <lastmod>2026-10-28</lastmod>
+    <loc>https://YOURDOMAIN.com/electricity-units-calculator</loc>
+    <lastmod>2026-10-24</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://bucolic-lamington-e7d903.netlify.app/percentage-calculator</loc>
-    <lastmod>2026-10-28</lastmod>
+    <loc>https://YOURDOMAIN.com/percentage-calculator</loc>
+    <lastmod>2026-10-24</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://bucolic-lamington-e7d903.netlify.app/about</loc>
-    <lastmod>2026-10-28</lastmod>
+    <loc>https://YOURDOMAIN.com/about</loc>
+    <lastmod>2026-10-24</lastmod>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://bucolic-lamington-e7d903.netlify.app/contact</loc>
-    <lastmod>2026-10-28</lastmod>
+    <loc>https://YOURDOMAIN.com/contact</loc>
+    <lastmod>2026-10-24</lastmod>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://bucolic-lamington-e7d903.netlify.app/privacy-policy</loc>
-    <lastmod>2026-10-28</lastmod>
+    <loc>https://YOURDOMAIN.com/privacy-policy</loc>
+    <lastmod>2026-10-24</lastmod>
     <priority>0.3</priority>
   </url>
 </urlset>

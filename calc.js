@@ -1,39 +1,11 @@
 
 function fmt(n){ return 'Rs ' + Math.round(n).toLocaleString('en-PK'); }
 function num(id){ var el = document.getElementById(id); return el ? (parseFloat(el.value) || 0) : 0; }
-function show(id, html){
-  var el = document.getElementById(id);
-  el.innerHTML = html;
-  el.classList.remove('show');
-  void el.offsetWidth;            // animation dobara chalane ke liye
-  el.classList.add('show');
-}
+function show(id, html){ var el = document.getElementById(id); el.innerHTML = html; el.classList.add('show'); }
 function onSubmit(formId, fn){
   var f = document.getElementById(formId);
   if (f) f.addEventListener('submit', function(e){ e.preventDefault(); fn(); });
 }
-
-/* ---------- Scroll animation: cards, tables, headings dheere se aate hain ---------- */
-(function(){
-  if (!('IntersectionObserver' in window)) return;
-  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
-  var items = document.querySelectorAll('main .card, main .tools a, main table, main h2, main details');
-  var io = new IntersectionObserver(function(entries){
-    entries.forEach(function(en){
-      if (!en.isIntersecting) return;
-      en.target.classList.add('in');
-      io.unobserve(en.target);
-      en.target.addEventListener('animationend', function(){
-        en.target.classList.remove('reveal', 'in');   // hover effects wapas kaam karein
-      }, { once: true });
-    });
-  }, { threshold: 0.12 });
-  items.forEach(function(el, i){
-    el.classList.add('reveal');
-    el.style.animationDelay = ((i % 4) * 0.07) + 's';
-    io.observe(el);
-  });
-})();
 
 /* ---------- 1. Salary tax (Tax Year 2027, FY 2026-27, salaried individuals) ---------- */
 // [from, to, fixed tax, rate on excess]
