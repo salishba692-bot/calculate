@@ -16,6 +16,7 @@ HTML
 CSS
 JavaScript (vanilla, no frameworks)
 Project Structure
+
 calculate/
 ├── index.html        # Home page
 ├── style.css         # Styling
