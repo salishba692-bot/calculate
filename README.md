@@ -42,5 +42,7 @@ Made by Alishba Shahid
 GitHub: @salishba692-bot
 License
 Free to use for learning purposes.
+
+
 heres my anotherr website about health -> https://care-hub-scan.lovable.app/
-plz click here AND KNOW ABOUT YOUR HEALTH
+plz click here And know about your health Thanks
