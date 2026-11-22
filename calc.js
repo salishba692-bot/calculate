@@ -79,17 +79,6 @@ var APPLIANCES = [
   ['LED TV', 100, 4], ['Iron', 1000, 0.5], ['Washing machine', 500, 1],
   ['Water pump / motor', 750, 1], ['Laptop', 60, 5]
 ];
-var applBox = document.getElementById('appliances');
-if (applBox){
-  var h = '<table><tr><th>Appliance</th><th>Watts</th><th>Qty</th><th>Hours/day</th></tr>';
-  APPLIANCES.forEach(function(a, i){
-    h += '<tr><td>' + a[0] + '</td>' +
-         '<td><input type="number" id="w' + i + '" value="' + a[1] + '" min="0"></td>' +
-         '<td><input type="number" id="q' + i + '" value="0" min="0"></td>' +
-         '<td><input type="number" id="h' + i + '" value="' + a[2] + '" min="0" step="0.5"></td></tr>';
-  });
-  applBox.innerHTML = h + '</table>';
-}
 onSubmit('elecForm', function(){
   var units = 0;
   APPLIANCES.forEach(function(a, i){
