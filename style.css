@@ -37,3 +37,21 @@ footer{background:#1d2433;color:#cfd5e2;padding:22px 0;font-size:.9rem}
 footer a{color:#cfd5e2;margin-right:14px}
 details{border-bottom:1px solid var(--line);padding:10px 0}
 summary{font-weight:600;cursor:pointer}
+/* Keep wide calculator tables usable without widening the mobile viewport. */
+.table-scroll{max-width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch}
+#appliances table{min-width:540px}
+#appliances input{min-width:76px}
+#appliances th[scope="row"]{background:transparent;font-weight:400}
+.row>*{min-width:0}
+.tools{grid-template-columns:repeat(auto-fit,minmax(min(240px,100%),1fr))}
+summary h3{display:inline;font:inherit;margin:0}
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,summary:focus-visible,.table-scroll:focus-visible{outline:3px solid var(--brand);outline-offset:3px}
+header a:focus-visible{outline-color:#fff}
+.skip-link{position:absolute;left:16px;top:0;transform:translateY(-150%);background:#fff;padding:8px 14px;z-index:10}
+.skip-link:focus{transform:translateY(0)}
+@media(max-width:560px){
+ nav{display:flex;flex-wrap:wrap;column-gap:14px;row-gap:2px}
+ nav a{display:inline-flex;align-items:center;min-height:44px;margin-right:0}
+ footer a{display:inline-block;min-height:44px;padding-top:8px}
+ th,td{padding:7px}
+}
